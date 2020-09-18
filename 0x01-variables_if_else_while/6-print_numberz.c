@@ -3,6 +3,7 @@
 
 /**
  * main - numbers each on a new line
+ *
  * Return: 0 (program ran)
  */
 
