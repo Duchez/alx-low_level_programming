@@ -9,10 +9,13 @@ int main(void)
 {
 	char *letters = "Holberton";
 
-	for (int i = 0; i < 9; i++)
+	int i = 0;
+
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(letters[i]);
 	}
 	_putchar('\n');
+
 	return (0);
 }
