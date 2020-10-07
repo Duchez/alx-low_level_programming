@@ -2,18 +2,17 @@
 /**
 *_puts_recursion - prints a string followed by a new line
 *@s: string argument
+*
 *Return: void
 */
 
 void _puts_recursion(char *s)
 {
-	int iter;
-
-	iter = 0;
-	while (s[iter])
+	if (s[0] != '\0')
 	{
-		_putchar (s[iter]);
-		iter++;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	_putchar('\n');
+	else
+		_putchar('\n');
 }
