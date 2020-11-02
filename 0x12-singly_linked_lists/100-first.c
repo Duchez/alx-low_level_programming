@@ -1,9 +1,10 @@
-#include "lists.h"
+#include <stdio.h>
+
+
+void beforeMain(void)__attribute__((constructor));
 /**
  * beforeMain - prints before main function is executed
  */
-
-void beforeMain(void)__attribute__((constructor));
 
 void beforeMain(void)
 {
