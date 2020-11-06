@@ -5,7 +5,7 @@
  * @n: integer
  * Return: address of new node
  */
-listint *add_nodeint_end(listint_t **head, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *nNode = malloc(sizeof(listint_t));
 	listint_t *thisNode;
