@@ -23,7 +23,7 @@ int _strlen(char *str)
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int filde;
-	ssize app_byte = 0, length = _strlen(text_content);
+	ssize_t app_byte = 0, length = _strlen(text_content);
 
 	if (!filename)
 		return (-1);
