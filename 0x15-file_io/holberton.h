@@ -9,6 +9,11 @@
 #include <fcntl.h>
 
 #define BUFF 1024
+#define USAGE "Usage: cp file_from file_to\n"
+#define ERR_READ "Error: Can't read from file %s\n"
+#define ERR_WRITE "Error: Can't write to %s\n"
+#define ERR_CLOSE "Error: Can't close fd %d\n"
+
 
 int _strlen(char *s);
 int _putchar(char c);
