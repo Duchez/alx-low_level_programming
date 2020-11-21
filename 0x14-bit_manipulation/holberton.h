@@ -15,6 +15,6 @@ int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned int m);
 int get_endianness(void);
 int _strlen(const char *s);
-_bool isbin(char);
+_Bool isbin(char);
 
 #endif
